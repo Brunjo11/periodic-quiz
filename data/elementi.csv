@@ -1,3 +1,4 @@
+NumeroAtomico,Simbolo,Nome,Periodo,Gruppo,Categoria,Colore
 1,H,Idrogeno,1,1,Non metallo,#3d6b6d
 2,He,Elio,1,18,Gas nobile,#6b5b95
 3,Li,Litio,2,1,Metallo alcalino,#5b8c5a
@@ -116,3 +117,4 @@
 116,Lv,Livermorio,7,16,Post-transition metal,#556b2f
 117,Ts,Tennessino,7,17,Alogeno,#6b4757
 118,Og,Oganesson,7,18,Gas nobile,#6b5b95
+
