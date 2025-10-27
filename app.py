@@ -4,6 +4,7 @@ import pandas as pd
 import os
 
 st.set_page_config(page_title="Tavola Periodica Interattiva", layout="wide")
+st.write("Created by Brunjo")
 st.title("🧪 Tavola Periodica Interattiva – Periodic Quiz")
 
 DATA_PATH = "data/elementi.csv"
@@ -253,3 +254,4 @@ if st.session_state.quiz_mode and st.session_state.question is not None:
     st.subheader(f"Dov'è l'elemento: {q['Nome']}?")
 else:
     st.write("")
+
