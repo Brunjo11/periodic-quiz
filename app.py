@@ -246,9 +246,10 @@ if st.session_state.round >= 10 and st.session_state.quiz_mode:
     st.success(f"Quiz completato! Punteggio finale: {st.session_state.score}/10")
     st.write("Puoi premere 'Inizia Quiz' per rifare una sessione.")
 
+# I hate myself 
 # ---------- mostra domanda corrente ----------
 if st.session_state.quiz_mode and st.session_state.question is not None:
     q = st.session_state.question
-    st.subheader(f"Dov'è l'elemento: {q['Nome']}? (numero {int(q['NumeroAtomico'])})")
+    st.subheader(f"Dov'è l'elemento: {q['Nome']}?")
 else:
     st.write("")
