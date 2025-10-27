@@ -1,11 +1,119 @@
 NumeroAtomico,Simbolo,Nome,Periodo,Gruppo,Categoria,Colore
-1,H,Idrogeno,1,1,Non metallo,#90E0EF
-2,He,Elio,1,18,Gas nobile,#FFD166
-3,Li,Litio,2,1,Metallo alcalino,#FF595E
-4,Be,Berio,2,2,Metallo alcalino-terroso,#FFCA3A
-5,B,Boro,2,13,Semimetallo,#8AC926
-6,C,Carbonio,2,14,Non metallo,#1982C4
-7,N,Azoto,2,15,Non metallo,#6A4C93
-8,O,Ossigeno,2,16,Non metallo,#56CFE1
-9,F,Fluoro,2,17,Alogen,#E56B6F
-10,Ne,Neon,2,18,Gas nobile,#FFD166
+1,H,Hydrogen,1,1,Non metallo,#3d6b6d
+2,He,Helium,1,18,Gas nobile,#6b5b95
+3,Li,Lithium,2,1,Metallo alcalino,#5b8c5a
+4,Be,Beryllium,2,2,Metallo alcalino-terroso,#7f6a55
+5,B,Boron,2,13,Semimetallo,#7a6f64
+6,C,Carbon,2,14,Non metallo,#3d6b6d
+7,N,Nitrogen,2,15,Non metallo,#3d6b6d
+8,O,Oxygen,2,16,Non metallo,#3d6b6d
+9,F,Fluorine,2,17,Alogeno,#6b4757
+10,Ne,Neon,2,18,Gas nobile,#6b5b95
+11,Na,Sodium,3,1,Metallo alcalino,#5b8c5a
+12,Mg,Magnesium,3,2,Metallo alcalino-terroso,#7f6a55
+13,Al,Aluminium,3,13,Post-transition metal,#556b2f
+14,Si,Silicon,3,14,Semimetallo,#7a6f64
+15,P,Phosphorus,3,15,Non metallo,#3d6b6d
+16,S,Sulfur,3,16,Non metallo,#3d6b6d
+17,Cl,Chlorine,3,17,Alogeno,#6b4757
+18,Ar,Argon,3,18,Gas nobile,#6b5b95
+19,K,Potassium,4,1,Metallo alcalino,#5b8c5a
+20,Ca,Calcium,4,2,Metallo alcalino-terroso,#7f6a55
+21,Sc,Scandium,4,3,Metallo di transizione,#4a6fa5
+22,Ti,Titanium,4,4,Metallo di transizione,#4a6fa5
+23,V,Vanadium,4,5,Metallo di transizione,#4a6fa5
+24,Cr,Chromium,4,6,Metallo di transizione,#4a6fa5
+25,Mn,Manganese,4,7,Metallo di transizione,#4a6fa5
+26,Fe,Iron,4,8,Metallo di transizione,#4a6fa5
+27,Co,Cobalt,4,9,Metallo di transizione,#4a6fa5
+28,Ni,Nickel,4,10,Metallo di transizione,#4a6fa5
+29,Cu,Copper,4,11,Metallo di transizione,#4a6fa5
+30,Zn,Zinc,4,12,Metallo di transizione,#4a6fa5
+31,Ga,Gallium,4,13,Post-transition metal,#556b2f
+32,Ge,Germanium,4,14,Semimetallo,#7a6f64
+33,As,Arsenic,4,15,Semimetallo,#7a6f64
+34,Se,Selenium,4,16,Non metallo,#3d6b6d
+35,Br,Bromine,4,17,Alogeno,#6b4757
+36,Kr,Krypton,4,18,Gas nobile,#6b5b95
+37,Rb,Rubidium,5,1,Metallo alcalino,#5b8c5a
+38,Sr,Strontium,5,2,Metallo alcalino-terroso,#7f6a55
+39,Y,Yttrium,5,3,Metallo di transizione,#4a6fa5
+40,Zr,Zirconium,5,4,Metallo di transizione,#4a6fa5
+41,Nb,Niobium,5,5,Metallo di transizione,#4a6fa5
+42,Mo,Molybdenum,5,6,Metallo di transizione,#4a6fa5
+43,Tc,Technetium,5,7,Metallo di transizione,#4a6fa5
+44,Ru,Ruthenium,5,8,Metallo di transizione,#4a6fa5
+45,Rh,Rhodium,5,9,Metallo di transizione,#4a6fa5
+46,Pd,Palladium,5,10,Metallo di transizione,#4a6fa5
+47,Ag,Silver,5,11,Metallo di transizione,#4a6fa5
+48,Cd,Cadmium,5,12,Metallo di transizione,#4a6fa5
+49,In,Indium,5,13,Post-transition metal,#556b2f
+50,Sn,Tin,5,14,Post-transition metal,#556b2f
+51,Sb,Antimony,5,15,Semimetallo,#7a6f64
+52,Te,Tellurium,5,16,Semimetallo,#7a6f64
+53,I,Iodine,5,17,Alogeno,#6b4757
+54,Xe,Xenon,5,18,Gas nobile,#6b5b95
+55,Cs,Cesium,6,1,Metallo alcalino,#5b8c5a
+56,Ba,Barium,6,2,Metallo alcalino-terroso,#7f6a55
+57,La,Lanthanum,6,3,Lanthanide,#5f7f6e
+58,Ce,Cerium,6,,Lanthanide,#5f7f6e
+59,Pr,Praseodymium,6,,Lanthanide,#5f7f6e
+60,Nd,Neodymium,6,,Lanthanide,#5f7f6e
+61,Pm,Promethium,6,,Lanthanide,#5f7f6e
+62,Sm,Samarium,6,,Lanthanide,#5f7f6e
+63,Eu,Europium,6,,Lanthanide,#5f7f6e
+64,Gd,Gadolinium,6,,Lanthanide,#5f7f6e
+65,Tb,Terbium,6,,Lanthanide,#5f7f6e
+66,Dy,Dysprosium,6,,Lanthanide,#5f7f6e
+67,Ho,Holmium,6,,Lanthanide,#5f7f6e
+68,Er,Erbium,6,,Lanthanide,#5f7f6e
+69,Tm,Thulium,6,,Lanthanide,#5f7f6e
+70,Yb,Ytterbium,6,,Lanthanide,#5f7f6e
+71,Lu,Lutetium,6,3,Lanthanide,#5f7f6e
+72,Hf,Hafnium,6,4,Metallo di transizione,#4a6fa5
+73,Ta,Tantalum,6,5,Metallo di transizione,#4a6fa5
+74,W,Tungsten,6,6,Metallo di transizione,#4a6fa5
+75,Re,Rhenium,6,7,Metallo di transizione,#4a6fa5
+76,Os,Osmium,6,8,Metallo di transizione,#4a6fa5
+77,Ir,Iridium,6,9,Metallo di transizione,#4a6fa5
+78,Pt,Platinum,6,10,Metallo di transizione,#4a6fa5
+79,Au,Gold,6,11,Metallo di transizione,#4a6fa5
+80,Hg,Mercury,6,12,Metallo di transizione,#4a6fa5
+81,Tl,Thallium,6,13,Post-transition metal,#556b2f
+82,Pb,Lead,6,14,Post-transition metal,#556b2f
+83,Bi,Bismuth,6,15,Post-transition metal,#556b2f
+84,Po,Polonium,6,16,Semimetallo,#7a6f64
+85,At,Astatine,6,17,Alogeno,#6b4757
+86,Rn,Radon,6,18,Gas nobile,#6b5b95
+87,Fr,Francium,7,1,Metallo alcalino,#5b8c5a
+88,Ra,Radium,7,2,Metallo alcalino-terroso,#7f6a55
+89,Ac,Actinium,7,3,Actinide,#6b6b4f
+90,Th,Thorium,7,,Actinide,#6b6b4f
+91,Pa,Protactinium,7,,Actinide,#6b6b4f
+92,U,Uranium,7,,Actinide,#6b6b4f
+93,Np,Neptunium,7,,Actinide,#6b6b4f
+94,Pu,Plutonium,7,,Actinide,#6b6b4f
+95,Am,Americium,7,,Actinide,#6b6b4f
+96,Cm,Curium,7,,Actinide,#6b6b4f
+97,Bk,Berkelium,7,,Actinide,#6b6b4f
+98,Cf,Californium,7,,Actinide,#6b6b4f
+99,Es,Einsteinium,7,,Actinide,#6b6b4f
+100,Fm,Fermium,7,,Actinide,#6b6b4f
+101,Md,Mendelevium,7,,Actinide,#6b6b4f
+102,No,Nobelium,7,,Actinide,#6b6b4f
+103,Lr,Lawrencium,7,3,Actinide,#6b6b4f
+104,Rf,Rutherfordium,7,4,Metallo di transizione,#4a6fa5
+105,Db,Dubnium,7,5,Metallo di transizione,#4a6fa5
+106,Sg,Seaborgium,7,6,Metallo di transizione,#4a6fa5
+107,Bh,Bohrium,7,7,Metallo di transizione,#4a6fa5
+108,Hs,Hassium,7,8,Metallo di transizione,#4a6fa5
+109,Mt,Meitnerium,7,9,Metallo di transizione,#4a6fa5
+110,Ds,Darmstadtium,7,10,Metallo di transizione,#4a6fa5
+111,Rg,Roentgenium,7,11,Metallo di transizione,#4a6fa5
+112,Cn,Copernicium,7,12,Metallo di transizione,#4a6fa5
+113,Nh,Nihonium,7,13,Post-transition metal,#556b2f
+114,Fl,Flerovium,7,14,Post-transition metal,#556b2f
+115,Mc,Moscovium,7,15,Post-transition metal,#556b2f
+116,Lv,Livermorium,7,16,Post-transition metal,#556b2f
+117,Ts,Tennessine,7,17,Alogeno,#6b4757
+118,Og,Oganesson,7,18,Gas nobile,#6b5b95
