@@ -9,6 +9,7 @@ st.title("🧪 Tavola Periodica Interattiva – Periodic Quiz")
 
 DATA_PATH = "data/elementi.csv"
 
+
 # ---------- fallback: crea un CSV minimale se manca ----------
 if not os.path.exists(DATA_PATH):
     os.makedirs("data", exist_ok=True)
@@ -80,6 +81,13 @@ if "round" not in st.session_state:
     st.session_state.round = 0
 if "last_feedback" not in st.session_state:
     st.session_state.last_feedback = None
+
+# ---------- mostra domanda corrente ----------
+if st.session_state.quiz_mode and st.session_state.question is not None:
+    q = st.session_state.question
+    st.subheader(f"Dov'è l'elemento: {q['Nome']}?")
+else:
+    st.write("")
 
 # ---------- UI: controllo quiz ----------
 col1, col2 = st.columns([1, 4])
@@ -248,10 +256,4 @@ if st.session_state.round >= 10 and st.session_state.quiz_mode:
     st.write("Puoi premere 'Inizia Quiz' per rifare una sessione.")
 
 # I hate myself 
-# ---------- mostra domanda corrente ----------
-if st.session_state.quiz_mode and st.session_state.question is not None:
-    q = st.session_state.question
-    st.subheader(f"Dov'è l'elemento: {q['Nome']}?")
-else:
-    st.write("")
 
